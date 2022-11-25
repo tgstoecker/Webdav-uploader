@@ -1,9 +1,12 @@
 # Python3 WebDAV uploader
 
-Base version copied from here: [https://git.fh-aachen.de/embeddedutils/webdav_uploader/-/tree/main/](https://git.fh-aachen.de/embeddedutils/webdav_uploader/-/tree/main/)
-
+Base version copied from here: [https://git.fh-aachen.de/embeddedutils/webdav_uploader/-/tree/main/](https://git.fh-aachen.de/embeddedutils/webdav_uploader/-/tree/main/)  
+  
 Added minor modifications of my own.
-
+  
+Requirements should be installed with:  
+`mamba install -c conda-forge webdavclient3 `  
+  
 ---
 
 Simple uploader (blocking mode) for WebDAV. used to upload files to any WebDAV server (e.g. sciebo) based on the python package [webdavclient3](https://github.com/ezhov-evgeny/webdav-client-python-3). 
